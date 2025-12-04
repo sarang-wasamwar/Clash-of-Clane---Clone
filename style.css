@@ -1,0 +1,201 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url("../Day-4-implementation/assets/vertopal.com_supercellheadline-heavy.ae61f14f.ttf") ;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100% ;
+    width: 100% ;
+}
+.nav{
+    height: 10vh ;
+    width: 85vw ;
+    background-color: black ;
+    display: flex ;
+    justify-content: space-around ;
+    align-items: center ;
+    border-bottom-left-radius: 20px ;
+    border-bottom-right-radius: 20px ;
+    margin: 0 7.5vw ;
+    font-size: 25px ;
+    position: relative ;
+}
+a{
+    text-decoration: none ;
+    color: white ;
+    font-family: 'MyFont' ;
+}
+.hero-section{
+    height: 75vh ;
+    width: 100vw ;
+    background-color: rgb(251, 251, 250) ;
+    background-image: url("./assets/bg_hero_games.79b5a33d.webp") ;
+    background-position: center ;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+    flex-direction: column ;
+    
+}
+.hero-section h1 {
+    font-family: 'MyFont' ;
+    font-size: 60px ;
+}
+.hero-section h5 {
+    font-family: 'MyFont' ;
+    font-size: 30px ;
+}
+.card{
+    display: flex ;
+    height: auto ;
+    width: 90vw ;
+    margin: 5vh 5vw ;
+    justify-content: center ;
+    flex-direction: row ;
+    flex-wrap: wrap ;
+}
+#a{
+    margin: 0px 20px ;
+    margin-top: 10px ;
+    background-color: white ;
+    height: 40vh ;
+    width: 40vw ;
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+    background-size: cover ;
+}
+.image-size{
+    border-radius: 30px ;
+    height: 100% ;
+    width: 100% ;
+    box-shadow: 0 0 10px black ;
+}
+.home-image{
+    height: 45px ;
+    width: 45px ;
+}
+.cards-columns {
+    margin-top: 10px ;
+    display: flex ;
+    flex-direction: column ;
+    text-align: center ;
+    font-family: 'MyFont';
+    font-size: 12.5px ;
+}
+.above-footer {
+    height: 25vh ;
+    width: 100vw ;
+    background-color: rgb(3, 46, 120) ;
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+    text-align: center ;
+    color: white ;
+    flex-direction: column ;
+    font-family: 'MyFont';
+    flex-wrap: wrap ;
+}
+.text{
+    height: 30vh;
+    width: 60vw ;
+    display:flex ;
+    justify-content: center;
+    align-items: right;
+    text-align: center;
+    flex-direction:column ;
+    font-size: 25px ;
+}
+.pekkas{
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+    height: 300px ;
+    width: auto ;
+    margin-top: -70px ;
+}
+.social-flatforms{
+    display: flex ;
+    gap: 20px ;
+}
+.footer{
+    height: 40vh ;
+    width: 100vw ;
+    background-color: black ;
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+    color: white ;
+    flex-direction: column ;
+    font-family: 'MyFont';
+    flex-wrap: wrap ;
+}
+.icons{
+    height: 20px ;
+    width: 20px ;
+}
+.store{
+    display: flex ;
+    gap: 15px ;
+}
+.image-size1{
+    height: 30px ;
+    width: auto ;
+    margin: 5px ;
+    border-radius: 0px ;
+}
+.alignment{
+    display: flex ;
+    flex-direction: row ;
+    justify-content: space-between;
+    align-items: center ;
+    width: 90% ;
+    margin: 10px ;
+}
+.new_text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 13px;
+    margin: 5px 0px ;
+    
+}
+#text_footer{
+    margin: 20px 40px ;
+}
+hr {
+    width: 90vw ;
+    color: gray ;
+}
+.last_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    font-size: 12px;
+    color: gray ;
+}
+#last_text_id{
+    margin: 0px 0px ;
+
+}
+.final{
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+    width: 90% ;
+    margin: 10px ;
+}
+.followed_by{
+    display: flex;
+    flex-direction: flex-start;
+    justify-content: flex-start;
+    width: 90%;
+    margin-top: 10px ;
+}

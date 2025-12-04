@@ -1,3 +1,5 @@
+# Clash of Clane - Clone
+
 This is a Clash of Clans–themed website built using HTML, CSS, and custom assets.
 
 📁 Project Structure
